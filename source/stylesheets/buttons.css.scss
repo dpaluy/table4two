@@ -1,0 +1,29 @@
+/* 6.0 - Buttons
+***************************** */
+.btn{
+    padding: 5px 60px;
+    border-radius: 0;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #d02229;
+    outline: none;
+    -webkit-transition: background-color 0.5s ease 0s, color 0.5s ease 0s;
+    -moz-transition: background-color 0.5s ease 0s, color 0.5s ease 0s;
+    transition: background-color 0.5s ease 0s, color 0.5s ease 0s;
+}
+
+.btn-reset{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+@media (max-width: 768px){
+    .btn{
+        font-size: 20px;
+    }
+}

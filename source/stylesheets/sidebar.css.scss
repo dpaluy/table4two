@@ -1,0 +1,83 @@
+/* 9.0 - Sidebar
+***************************** */
+
+.sidebar {
+  width: 40%;
+  float: right;
+  padding: 60px;
+  background-color: #fff;
+}
+
+.sidebar-img {
+  margin-bottom: 30px;
+}
+
+.sidebar {
+  .title-blue span {
+    display: block;
+    font-size: 34px;
+    font-weight: normal;
+  }
+  p {
+    font-size: 30px;
+    color: #a7a7a7;
+    text-align: center;
+  }
+}
+
+.sidebar-form .form-control {
+  padding: 10px 0;
+  border: 0;
+  border-bottom: 1px solid #eaeaea;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.sidebar-btn {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar-social {
+  text-align: center;
+  .icon {
+    margin-right: 10px;
+  }
+  > * {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 31px;
+    color: #64c0eb;
+    &:hover {
+      text-decoration: none;
+      color: #64c0eb;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .sidebar {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    float: none;
+    .title-blue span, p {
+      font-size: 20px;
+    }
+  }
+  .sidebar-social > * {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    padding: 20px;
+  }
+}
