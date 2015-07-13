@@ -21,10 +21,13 @@
     <![endif]-->
 </head>
 <body class="<%= page_classes %>">
-  <div class="wrapper">
-    <%= partial "layouts/header" %>
-    <%= yield %>
-    <%= partial "layouts/footer" %>
+  <div class="wrapper-main">
+    <div class="wrapper">
+      <%= partial "layouts/header" %>
+      <%= yield %>
+      <%= partial "layouts/footer" %>
+      <div class="wrapper-mask"></div>
+    </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>

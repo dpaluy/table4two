@@ -8,8 +8,9 @@
  *= require header
  *= require footer
  *= require sidebar
+ *= require mobile
  *= require home
  *= require ambasadors
- *= require about_us
- *= require contact_us
+ *= require about
+ *= require contacts
  */

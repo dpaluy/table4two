@@ -1,0 +1,101 @@
+/* * 13.0 Page Contact Us
+***************************** */
+
+.contacts {
+  .sidebar .title-blue {
+    margin-bottom: 20px;
+  }
+  .contant {
+    background-color: #64c0eb;
+    position: relative;
+    &:before {
+      content: "";
+      background-image: url("../images/pattern.png");
+      background-repeat: repeat-x;
+      height: 22%;
+      background-position: 0 bottom;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+
+.envelope-box {
+  position: relative;
+  img {
+    width: 100%;
+  }
+  h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #505a78;
+  }
+}
+
+.envelope-box-form {
+  padding-top: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.envelope-box-form-inner {
+  width: 290px;
+  margin: 0 auto;
+}
+
+.envelope-box {
+  .btn-block {
+    margin-top: 10px;
+  }
+  h3 {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .envelope-box-form {
+    padding-top: 15px;
+  }
+  .envelope-box {
+    h3 {
+      font-size: 30px;
+      margin-bottom: 5px;
+    }
+    .form-control {
+      height: 25px;
+    }
+    .btn {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .envelope-box-form-inner {
+    width: 220px;
+  }
+  .envelope-box {
+    padding-top: 150px;
+    h3 {
+      display: none;
+    }
+    .btn-block {
+      margin-top: 90px;
+    }
+    .btn {
+      width: 100%;
+    }
+    .form-control {
+      color: #fff;
+      &:-moz-placeholder, &::-moz-placeholder, &:-ms-input-placeholder, &::-webkit-input-placeholder {
+        color: #fff;
+      }
+    }
+  }
+}
