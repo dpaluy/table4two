@@ -6,13 +6,7 @@
   float: right;
   padding: 60px;
   background-color: #fff;
-}
 
-.sidebar-img {
-  margin-bottom: 30px;
-}
-
-.sidebar {
   .title-blue span {
     display: block;
     font-size: 34px;
@@ -23,6 +17,10 @@
     color: #a7a7a7;
     text-align: center;
   }
+}
+
+.sidebar-img {
+  margin-bottom: 30px;
 }
 
 .sidebar-form .form-control {
