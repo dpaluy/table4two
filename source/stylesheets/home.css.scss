@@ -275,18 +275,6 @@
   border: 1px solid #eaeaea;
   background-color: #fdfdfd;
   padding: 20px;
-  &:before {
-    content: "";
-    position: absolute;
-    top: -11px;
-    right: 15px;
-    width: 73px;
-    height: 60px;
-    background-image: url("../images/logo_icon.png");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: cover;
-  }
   img {
     vertical-align: middle;
   }
