@@ -7,7 +7,9 @@
       <a href="#" class="btn">הצטרף עכשיו</a>
       <div class="banner-media">
         <div class="banner-media-inner">
-          <button type="button" class="btn-reset btn-play" data-toggle="modal" data-target="#video-modal"><i class="icon icon-play"></i></button>
+          <button type="button" class="btn-reset btn-play" data-toggle="modal" data-target="#video-modal" data-theVideo="https://www.youtube.com/embed/HieorPee6KM">
+            <i class="icon icon-play"></i>
+          </button>
         </div>
       </div>
     </div>
@@ -132,12 +134,4 @@
 </section>
 <!-- /main -->
 
-<div class="modal fade" id="video-modal" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="video-container">
-        <iframe id="iframe" src="https://www.youtube.com/embed/HieorPee6KM" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
-</div>
+<%= partial "video" %>
