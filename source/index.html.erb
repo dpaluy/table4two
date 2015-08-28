@@ -140,100 +140,25 @@
       <h3 class="title-blue fly-in animated-content">החברות שכבר איתנו..</h3>
       <div class="logos-block fly-in animated-content">
         <ul class="row">
-          <li class="col-sm-4">
-            <div class="logo-box">
-              <a href="http://www.steimatzky.co.il/Steimatzky/pages/default.aspx" target="_blank">
-                <img src="images/logo_11.png" alt="logo_01" />
-              </a>
-            </div>
-          </li>
-          <li class="col-sm-4">
-            <div class="logo-box">
-              <a href="https://www.elite.co.il/" target="_blank">
-                <img src="images/logo_12.png" alt="logo_01" />
-              </a>
-            </div>
-          </li>
-          <li class="col-sm-4">
-            <div class="logo-box">
-              <a href="https://www.tnuva.co.il/" target="_blank">
-                <img src="images/logo_13.png" alt="logo_01" />
-              </a>
-            </div>
-          </li>
+          <% (1..3).each do |i| %>
+            <% big_logo = "logo_#{i}" %>
+            <li class="col-sm-4">
+              <div class="logo-box">
+                <img src="images/<%= big_logo %>.png" alt="<%= big_logo %>" />
+              </div>
+            </li>
+          <% end %>
         </ul>
       </div>
       <ul class="logos-small-block fly-in animated-content">
-        <li>
-          <div class="logo-small-box">
-            <a href="https://www.cellcom.co.il/" target="_blank">
-              <img src="images/logo_10.png" alt="logo" />
-            </a>
-          </div>
-        </li>
-        <li>
-          <div class="logo-small-box">
-            <a href="http://www.mako.co.il/" target="_blank">
-              <img src="images/logo_09.png" alt="logo" />
-            </a>
-          </div>
-        </li>
-        <li>
-          <div class="logo-small-box">
-            <a href="http://www.tapuz.co.il/minisites/102fm/" target="_blank">
-              <img src="images/logo_08.png" alt="logo" />
-            </a>
-          </div>
-        </li>
-        <li>
-          <div class="logo-small-box">
-            <a href="https://www.bank-yahav.co.il/" target="_blank">
-              <img src="images/logo_07.png" alt="logo" />
-            </a>
-          </div>
-        </li>
-        <li>
-          <div class="logo-small-box">
-            <a href="http://www.negev-new.co.il/" target="_blank">
-              <img src="images/logo_06.png" alt="logo" />
-            </a>
-          </div>
-        </li>
-        <li>
-          <div class="logo-small-box">
-            <a href="http://www.burgus.co.il/" target="_blank">
-              <img src="images/logo_05.png" alt="logo" />
-            </a>
-          </div>
-        </li>
-        <li>
-          <div class="logo-small-box">
-            <a href="http://www.strauss-group.co.il/" target="_blank">
-              <img src="images/logo_04.png" alt="logo" />
-            </a>
-          </div>
-        </li>
-        <li>
-          <div class="logo-small-box">
-            <a href="http://www.neviot.co.il/" target="_blank">
-              <img src="images/logo_03.png" alt="logo" />
-            </a>
-          </div>
-        </li>
-        <li>
-          <div class="logo-small-box">
-            <a href="https://www.cal-online.co.il/he-IL/Cal/Pages/home.aspx" target="_blank">
-              <img src="images/logo_02.png" alt="logo" />
-            </a>
-          </div>
-        </li>
-        <li>
-          <div class="logo-small-box">
-            <a href="http://www.azrieli.com/" target="_blank">
-              <img src="images/logo_01.png" alt="logo" />
-            </a>
-          </div>
-        </li>
+        <% (4..14).each do |i| %>
+          <% small_logo = "logo_#{i}" %>
+          <li>
+            <div class="logo-small-box">
+              <img src="images/<%= small_logo %>.png" alt="<%= small_logo %>" />
+            </div>
+          </li>
+        <% end %>
       </ul>
     </div>
   </div>
