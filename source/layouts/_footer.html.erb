@@ -4,7 +4,7 @@
     <div class="container-small">
       <div class="foot-top-logo">
         <a href="http://www.latet.org.il/" target="_blank">
-          <img src="images/latet.png" alt="logo" />
+          <%= image_tag "latet.png" %>
         </a>
       </div>
     </div>
@@ -14,17 +14,10 @@
       <div class="row">
         <div class="col-sm-6">
           <h5 class="foot-subscrb-title clearfix">
-            <span>עדיין יש לכם שאלות? טענות, מענות?</span>
-            <img class="mobile-hidden" src="images/foot_middle_icon.png" alt="" />
-
+            <span>יש לכם שאלות? טענות, מענות?</span>
           </h5>
-          <form class="foot-subscrb" action="" method="">
-            <div class="form-group">
-              <input class="form-control" type="email" placeholder="כתובת המייל שלך"/>
-            </div>
-            <input class="btn" type="submit" value="שלח"/>
-
-          </form>
+          <%= image_tag "foot_middle_icon.png", class: "mobile-hidden" %>
+          <a href="/contacts.html" class="btn">כיתבו לנו</a>
         </div>
         <div class="col-sm-3 mobile-hidden">
           <div class="foot-middle-nav">
@@ -37,63 +30,31 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-3">
-          <div class="foot-middle-logo">
-            <a href="http://tross.co/" target="_blank">
-              <img src="images/tross_logo.png" alt="Tross" />
-            </a>
-            <span>Design by</span>
-          </div>
-          <div class="foot-middle-logo">
-            <a href="http://astrails.com/" target="_blank">
-              <img src="images/astrails.png" alt="Astrails" />
-            </a>
-            <span>Crafted by</span>
-          </div>
+        <div class="col-sm-3 credits">
+          <h5 class="clearfix">קרדיטים</h5>
+          <ul>
+            <li>
+              <a href="<%= data.generic.settings.facebook_share %>" target="_blank">
+                <span>שתף ב-</span>
+                <i class="icon icon-fb"></i>
+              </a>
+              <span>Share on</span>
+            </li>
+            <li>
+              <a href="http://tross.co/" target="_blank">
+              <%= image_tag "tross_logo.png", alt: "Tross" %></a>
+              <span>Design by</span>
+            </li>
+            <li>
+              <a href="http://astrails.com/" target="_blank">
+                <%= image_tag "astrails_small.png", alt: "Astrails" %></a>
+              <span>Crafted by</span>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
-  <div class="foot-bottom">
-    <div class="container-small">
-      <ul class="foot-sponsors clearfix">
-        <li>
-          <a href="http://www.weforum.org/community/global-shapers" target="_blank">
-            <img src="images/sponsor_01.jpg" alt="Global Shapers community" />
-          </a>
-        </li>
-        <li>
-          <a href="http://www.telepay.co.il/" target="_blank">
-            <img src="images/sponsor_02.jpg" alt="Telepay" />
-          </a>
-        </li>
-        <li>
-          <a href="http://astrails.com" target="_blank">
-            <img src="images/astrails_logo.png" alt="Astrails" />
-          </a>
-        </li>
-        <li>
-          <a href="http://tross.co/" target="_blank">
-            <img src="images/sponsor_03.jpg" alt="Tross" />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.10bis.co.il/" target="_blank">
-            <img src="images/sponsor_04.jpg" alt="10bis" />
-          </a>
-        </li>
-        <li>
-          <a href="http://www.shenhavlaw.com/" target="_blank">
-            <img src="images/sponsor_05.jpg" alt="Shenhav" />
-          </a>
-        </li>
-        <li>
-          <a href="http://www.latet.org.il" target="_blank">
-            <img src="images/sponsor_06.jpg" alt="Latet" />
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
+  <%= partial "layouts/footer_sponsers" %>
 </footer>
 <!-- /footer -->

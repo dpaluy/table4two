@@ -1,3 +1,4 @@
 settings:
   email: "hello@tablefortwo.org.il"
   signup_link: "https://www.10bis.co.il/TableForTwo/TableForTwoHome/TableForTwoRegistration?utm_source=table42&ref=table42"
+  facebook_share: "https://www.facebook.com/sharer/sharer.php?u="

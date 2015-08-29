@@ -85,6 +85,21 @@
   }
 }
 
+.foot-middle {
+  .credits {
+    h5 {
+      display: inline-block;
+      border-bottom: 1px solid #fff;
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    a {
+      color: #FFF;
+      text-decoration: none;
+    }
+  }
+}
 .foot-subscrb-title {
   span {
     float: right;
