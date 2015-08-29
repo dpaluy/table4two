@@ -40,6 +40,29 @@ configure :development do
   # set :debug_assets, true
 end
 
+activate :google_analytics do |ga|
+  # Property ID (default = nil)
+  ga.tracking_id = 'UA-66894490-1'
+
+  # Removing the last octet of the IP address (default = false)
+  ga.anonymize_ip = false
+
+  # Tracking across a domain and its subdomains (default = nil)
+  ga.domain_name = 'tablefortwo.org.il'
+
+  # Tracking across multiple domains and subdomains (default = false)
+  ga.allow_linker = false
+
+  # Tracking Code Debugger (default = false)
+  ga.debug = false
+
+  # Tracking in development environment (default = true)
+  ga.development = false
+
+  # Compress the JavaScript code (default = false)
+  ga.minify = true
+end
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
