@@ -48,7 +48,7 @@ activate :google_analytics do |ga|
   ga.anonymize_ip = false
 
   # Tracking across a domain and its subdomains (default = nil)
-  ga.domain_name = 'tablefortwo.org.il'
+  #ga.domain_name = 'tablefortwo.org.il'
 
   # Tracking across multiple domains and subdomains (default = false)
   ga.allow_linker = false
