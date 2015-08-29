@@ -64,11 +64,15 @@ activate :google_analytics do |ga|
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def selected_menu(selected)
+    if current_page.path.include? selected
+      "selected"
+    else
+      ""
+    end
+  end
+end
 
 set :css_dir, 'stylesheets'
 

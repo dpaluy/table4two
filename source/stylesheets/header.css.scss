@@ -56,6 +56,10 @@
     font-size: 25px;
     padding-left: 10px;
   }
+
+  ul li .selected {
+    font-weight: bold;
+  }
 }
 
 .head-link:before {

@@ -4,16 +4,16 @@
     <div class="head-right clearfix">
       <button id="menu-open" class="menu-toggle mobile-visiable btn-reset"><i class="icon icon-menu"></i></button>
       <h1 class="head-logo">
-        <a href="/index.html">
+        <a href="/">
           <%= image_tag "head-logo.png", alt: "table for two logo" %>
         </a>
       </h1>
       <nav class="head-nav mobile-hidden">
         <ul class="clearfix">
-          <li><a href="/contacts.html">צור קשר</a></li>
-          <li><a href="/about.html">אנחנו במספרים</a></li>
-          <li><a href="/ambassadors.html">השגרירים שלנו</a></li>
-          <li><a href="/questions_and_answers.html">שאלות ותשובות</a></li>
+          <li><a href="/contacts.html" class='<%= selected_menu('contacts') %>'>צור קשר</a></li>
+          <li><a href="/about.html" class='<%= selected_menu('about') %>'>אנחנו במספרים</a></li>
+          <li><a href="/ambassadors.html" class='<%= selected_menu('ambassadors') %>'>השגרירים שלנו</a></li>
+          <li><a href="/questions_and_answers.html" class='<%= selected_menu('questions_and_answers') %>'>שאלות ותשובות</a></li>
         </ul>
       </nav>
     </div>
