@@ -1,5 +1,5 @@
 /* 9.0 - Sidebar
-***************************** */
+ ***************************** */
 
 .sidebar {
   width: 40%;
@@ -21,20 +21,10 @@
   .explain {
     padding-bottom: 10px
   }
-}
-
-.sidebar-link {
-  font-size: 14px;
-  text-align: center;
-  a {
-    color: #63c0eb;
-    &:hover{
-      text-decoration: underline;
-    }
-  }
 
   .sidebar-img {
     margin-bottom: 30px;
+    text-align: center;
   }
 
   .sidebar-form .form-control {
@@ -68,7 +58,16 @@
       }
     }
   }
-
+  .sidebar-link {
+    font-size: 14px;
+    text-align: center;
+    a {
+      color: #63c0eb;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 @media (max-width: 1024px) {

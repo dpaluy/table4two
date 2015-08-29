@@ -7,6 +7,7 @@
   }
   textarea {
     resize: none;
+    min-height: 130px;
   }
   .contant {
     background-color: #64c0eb;
@@ -69,10 +70,10 @@
   .envelope-box {
     h3 {
       font-size: 30px;
-      margin-bottom: 5px;
+      margin-bottom: 15px;
     }
     .form-control {
-      height: 25px;
+      height: 35px;
     }
     .btn {
       font-size: 20px;
@@ -94,12 +95,6 @@
     }
     .btn {
       width: 100%;
-    }
-    .form-control {
-      color: #fff;
-      &:-moz-placeholder, &::-moz-placeholder, &:-ms-input-placeholder, &::-webkit-input-placeholder {
-        color: #fff;
-      }
     }
   }
 }
