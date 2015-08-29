@@ -38,6 +38,13 @@
   text-align: center;
 }
 
+.foot-middle {
+  .mail-icon {
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
 .foot-middle-fb a > *, .foot-middle-logo > * {
   vertical-align: middle;
   display: inline-block;
@@ -58,7 +65,7 @@
 }
 
 .foot-middle-logo {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans Hebrew', sans-serif;
   font-size: 21px;
   line-height: 1;
   a {
@@ -70,6 +77,8 @@
 }
 
 .foot-middle-nav {
+  font-family: 'Open Sans Hebrew';
+
   h5 {
     display: inline-block;
     border-bottom: 1px solid #fff;
@@ -79,13 +88,14 @@
   }
   a {
     font-size: 16px;
-    font-weight: bold;
-    line-height: 25px;
-    color: inherit;
+    line-height: 30px;
+    color: #ffffff;
   }
 }
 
 .foot-middle {
+  font-family: 'Open Sans Hebrew', sans-serif;
+
   .credits {
     h5 {
       display: inline-block;
@@ -97,6 +107,13 @@
     a {
       color: #FFF;
       text-decoration: none;
+    }
+    .description {
+      font-family: open-sans;
+      font-size: 16px;
+      color: #ffffff;
+      margin-top: 12px;
+      line-height: 18px;
     }
   }
 }
@@ -110,7 +127,7 @@
     left: 50px;
     top: 0;
   }
-  font-size: 37px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
 }

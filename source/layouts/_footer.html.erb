@@ -16,7 +16,9 @@
           <h5 class="foot-subscrb-title clearfix">
             <span>יש לכם שאלות? טענות, מענות?</span>
           </h5>
-          <%= image_tag "foot_middle_icon.png", class: "mobile-hidden" %>
+          <div class="mail-icon">
+            <%= image_tag "foot_middle_icon.png", class: "mobile-hidden" %>
+          </div>
           <a href="/contacts.html" class="btn">כיתבו לנו</a>
         </div>
         <div class="col-sm-3 mobile-hidden">
@@ -38,17 +40,17 @@
                 <span>שתף ב-</span>
                 <i class="icon icon-fb"></i>
               </a>
-              <span>Share on</span>
+              <span class="description">Share on</span>
             </li>
             <li>
               <a href="http://tross.co/" target="_blank">
               <%= image_tag "tross_logo.png", alt: "Tross" %></a>
-              <span>Design by</span>
+              <span class="description">Design by</span>
             </li>
             <li>
               <a href="http://astrails.com/" target="_blank">
                 <%= image_tag "astrails_small.png", alt: "Astrails" %></a>
-              <span>Crafted by</span>
+              <span class="description">Crafted by</span>
             </li>
           </ul>
         </div>
