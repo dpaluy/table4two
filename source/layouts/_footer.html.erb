@@ -12,47 +12,62 @@
   <div class="foot-middle section-blue">
     <div class="container-small">
       <div class="row">
-        <div class="col-sm-6">
-          <h5 class="foot-subscrb-title clearfix">
-            <span>יש לכם שאלות? טענות, מענות?</span>
-          </h5>
+        <div class="col-sm-4 text-center" >
+          <h5 class="foot-title clearfix">יש לכם שאלות? טענות, מענות?</h5>
           <div class="mail-icon">
             <%= image_tag "foot_middle_icon.png", class: "mobile-hidden" %>
           </div>
           <a href="/contacts.html" class="btn">כיתבו לנו</a>
         </div>
-        <div class="col-sm-3 mobile-hidden">
-          <div class="foot-middle-nav">
-            <h5>קישורים</h5>
-            <ul>
-              <li><a href="/questions_and_answers.html">שאלות ותשובות</a></li>
-              <li><a href="/ambassadors.html">השגרירים שלנו</a></li>
-              <li><a href="/about.html">אנחנו במספרים</a></li>
-              <li><a href="/contacts.html">צור קשר</a></li>
-            </ul>
+        <div class="col-sm-4 text-center mobile-hidden">
+          <div class="row">
+            <div class="col-sm-offset-5 text-right">
+              <h5 class="foot-title clearfix">קישורים</h5>
+              <ul class="links">
+                <li><a href="/questions_and_answers.html">שאלות ותשובות</a></li>
+                <li><a href="/ambassadors.html">השגרירים שלנו</a></li>
+                <li><a href="/about.html">אנחנו במספרים</a></li>
+                <li><a href="/contacts.html">צור קשר</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="col-sm-3 credits">
-          <h5 class="clearfix">קרדיטים</h5>
-          <ul>
-            <li>
-              <a href="<%= data.generic.settings.facebook_share %>" target="_blank">
-                <span>שתף ב-</span>
-                <i class="icon icon-fb"></i>
-              </a>
-              <span class="description">Share on</span>
-            </li>
-            <li>
-              <a href="http://tross.co/" target="_blank">
-              <%= image_tag "tross_logo.png", alt: "Tross" %></a>
-              <span class="description">Design by</span>
-            </li>
-            <li>
-              <a href="http://astrails.com/" target="_blank">
-                <%= image_tag "astrails_small.png", alt: "Astrails" %></a>
-              <span class="description">Crafted by</span>
-            </li>
-          </ul>
+        <div class="col-sm-4 text-center credits">
+            <h5 class="foot-title clearfix">קרדיטים</h5>
+            <div class="row">
+              <div class="col-sm-6 text-left">
+                <ul>
+                  <li>
+                    <a href="<%= data.generic.settings.facebook_share %>" target="_blank">
+                      <span>שתף ב - </span>
+                      <i class="icon icon-fb"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://tross.co/" target="_blank">
+                    <%= image_tag "tross_logo.png", alt: "Tross" %></a>
+                  </li>
+                  <li>
+                    <a href="http://astrails.com/" target="_blank">
+                      <%= image_tag "astrails_small.png", alt: "Astrails" %></a>
+                  </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 text-left">
+              <ul>
+                <li>
+                  <span class="description">Share on</span>
+                </li>
+                <li>
+                  <span class="description">Design by</span>
+                </li>
+                <li>
+                  <span class="description">Crafted by</span>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
         </div>
       </div>
     </div>
