@@ -2,6 +2,6 @@ settings:
   domain: "https://www.tablefortwo.org.il"
   email: "hello@tablefortwo.org.il"
   signup_link: "https://www.10bis.co.il/TableForTwo/TableForTwoHome/TableForTwoRegistration?utm_source=table42&ref=table42"
-  facebook_share: "https://www.facebook.com/sharer/sharer.php?u="
+  facebook_share: "https://www.facebook.com/sharer/sharer.php?u=https://www.tablefortwo.org.il"
 seo:
   description: תורמים שקל אחד בכל הזמנת ארוחה עם תן ביס. עוזרים לילדים שזקוקים לארוחה. הכסף במלואו הולך ישירות לילדים שזקוקים לו.
