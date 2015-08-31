@@ -1,4 +1,5 @@
 og:
+  title: 'שולחן לשניים'
   description: 'תורמים שקל אחד בכל הזמנת ארוחה עם תן ביס. עוזרים לילדים שזקוקים לארוחה. הכסף במלואו הולך ישירות לילדים שזקוקים לו.'
   image:
     '': https://www.tablefortwo.org.il/fbimage.png
@@ -9,6 +10,7 @@ og:
   locale:
     '': he_IL
 fb:
+  title: 'שולחן לשניים'
   description: 'תורמים שקל אחד בכל הזמנת ארוחה עם תן ביס. עוזרים לילדים שזקוקים לארוחה. הכסף במלואו הולך ישירות לילדים שזקוקים לו.'
   image:
     '': https://www.tablefortwo.org.il/fbimage.png
