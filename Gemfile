@@ -18,3 +18,5 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 gem 'sitemap_generator'
 
 gem 'middleman-robots'
+gem 'middleman-ogp'
+gem 'byebug'

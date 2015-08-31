@@ -40,6 +40,14 @@ configure :development do
   # set :debug_assets, true
 end
 
+activate :ogp do |ogp|
+  ogp.namespaces = {
+    fb: data.ogp.fb,
+    og: data.ogp.og
+  }
+  ogp.base_url = data.generic.settings.domain
+end
+
 activate :google_analytics do |ga|
   # Property ID (default = nil)
   ga.tracking_id = 'UA-66894490-1'
