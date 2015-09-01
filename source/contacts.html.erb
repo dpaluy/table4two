@@ -2,37 +2,4 @@
 title: "שולחן לשניים | צור קשר"
 ---
 
-<!-- Main -->
-<section class="main">
-  <div class="container-main clearfix">
-    <aside class="sidebar hidden-xs">
-      <div class="sidebar-img">
-        <%= image_tag "sidebar_contact_img.png", alt: "Contact us Table for two"  %>
-      </div>
-      <h2 class="title-blue">צור איתנו קשר</h2>
-      <div class="sidebar-link">
-        <a href="mailto:<%= data.generic.settings.email %>"><%= data.generic.settings.email %></a>
-      </div>
-    </aside>
-    <div class="contant">
-      <div class="envelope-box">
-        <%= image_tag "contact_bg.png", alt: "contact us" %>
-        <div class="envelope-box-form">
-          <div class="envelope-box-form-inner">
-            <h3>צור איתנו קשר</h3>
-            <form class="page-form" action="" method="">
-              <div class="form-group">
-                <input class="form-control" type="email" placeholder="דואר אלקטרוני שלך" required/>
-              </div>
-              <textarea rows="7" cols="50" class="form-control" placeholder="הודעה"></textarea>
-              <div class="btn-block">
-                <input class="btn" type="submit" value="שלח עכשיו" />
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /main -->
+<%= partial "contacts_partial" %>
