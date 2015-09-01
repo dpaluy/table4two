@@ -26,19 +26,24 @@
   top: 0;
   height: 100%;
   width: 260px;
-  background: #54AED8;
+  background: #FFFFFF;
   padding: 59px 0 20px 0;
   overflow-y: auto;
   -webkit-transform: translate3d(100%, 0, 0);
   -moz-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
+  box-shadow: -1px 0 2px 0 rgba(0, 0, 0, 0.45);
   ul li a {
     display: block;
     padding: 10px 20px;
-    color: #fff;
-    font-size: 20px;
+    color: #666666;
+    font-size: 17px;
+    line-height: 40px;
+    &.selected {
+      font-weight: bold;
+    }
     &:hover {
-      background-color: #64c0eb;
+      background-color: #e0ffff;
     }
   }
 }
