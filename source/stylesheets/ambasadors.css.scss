@@ -37,6 +37,11 @@
   img {
     vertical-align: middle;
     border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    display:block;
+    margin: auto;
+    margin-top: 20px;
   }
 }
 
@@ -47,17 +52,61 @@
   height: 400px;
   max-height: 400px;
   overflow: hidden;
-  h3, h4 {
+  h3, h4{
     text-align: center;
-    font-size: 24px;
   }
   h3 {
+    font-size: 24px;
     font-weight: bold;
+    color: #333333;
+    margin-bottom: 15px;
+    line-height: 28px;
   }
-  h4 {
+  h4{
+    font-size: 18px;
+    font-weight: normal;
+    color: #333333;
     margin-bottom: 20px;
+    line-height: 22px;
   }
+  p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #333333;
+    line-height: 24px;
+    }
 }
+
+.amabassador-company{
+  img{
+    padding: 10px;
+    max-width: none;
+  }
+  a{
+    vertical-align: baseline ;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 55px;
+  }
+  height: 55px;
+  border-top: 1px solid #ededed;
+  &:after, &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;}
+    &:after {
+      bottom: -28px;
+      border-color: #fdfdfd transparent transparent transparent;
+    }
+    &:before {
+      bottom: -30px;
+      border-color: #ededed transparent transparent transparent;
+    }
+  }
 
 @media (max-width: 768px) {
   .ambassador-box {
