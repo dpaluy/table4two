@@ -3,7 +3,7 @@
   <div class="foot-top">
     <div class="container-small">
       <div class="foot-top-logo">
-        <a href="http://www.latet.org.il/" target="_blank">
+        <a href="http://www.latet.org.il/" data-event="ga" data-ga-category="Footer" data-ga-action="click" data-ga-label="latet" target="_blank">
           <%= image_tag "latet.png" %>
         </a>
       </div>
@@ -24,10 +24,10 @@
             <div class="col-sm-offset-5 text-right">
               <h5 class="foot-title clearfix">קישורים</h5>
               <ul class="links">
-                <li><a href="/questions_and_answers.html">שאלות ותשובות</a></li>
-                <li><a href="/ambassadors.html">השגרירים שלנו</a></li>
-                <li><a href="/about.html">אנחנו במספרים</a></li>
-                <li><a href="/contacts.html">צור קשר</a></li>
+                <li><a href="/questions_and_answers.html" data-event="ga" data-ga-category="Footer Menu" data-ga-action="click" data-ga-label="q&a">שאלות ותשובות</a></li>
+                <li><a href="/ambassadors.html" data-event="ga" data-ga-category="Footer Menu" data-ga-action="click" data-ga-label="ambassadors">השגרירים שלנו</a></li>
+                <li><a href="/about.html"  data-event="ga" data-ga-category="Footer Menu" data-ga-action="click" data-ga-label="about">אנחנו במספרים</a></li>
+                <li><a href="/contacts.html" data-event="ga" data-ga-category="Footer Menu" data-ga-action="click" data-ga-label="contacts">צור קשר</a></li>
               </ul>
             </div>
           </div>
@@ -38,17 +38,17 @@
               <div class="col-sm-6 text-left">
                 <ul>
                   <li>
-                    <a href="<%= data.generic.settings.facebook_share %>" target="_blank">
+                    <a href="<%= data.generic.settings.facebook_share %>"  data-event="ga" data-ga-category="Footer Menu" data-ga-action="click" data-ga-label="Facebook share" target="_blank">
                       <span>שתף ב - </span>
                       <i class="icon icon-fb"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="http://tross.co/" target="_blank">
+                    <a href="http://tross.co/"  data-event="ga" data-ga-category="Footer Menu" data-ga-action="click" data-ga-label="tross" target="_blank">
                     <%= image_tag "tross_logo.png", alt: "Tross" %></a>
                   </li>
                   <li>
-                    <a href="http://astrails.com/" target="_blank">
+                    <a href="http://astrails.com/"  data-event="ga" data-ga-category="Footer Menu" data-ga-action="click" data-ga-label="astrails" target="_blank">
                       <%= image_tag "astrails_small.png", alt: "Astrails" %></a>
                   </li>
                 </ul>

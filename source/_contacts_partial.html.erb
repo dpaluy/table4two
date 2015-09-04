@@ -6,7 +6,7 @@
       </div>
       <h2 class="title-blue">צור איתנו קשר</h2>
       <div class="sidebar-link">
-        <a href="mailto:<%= data.generic.settings.email %>"><%= data.generic.settings.email %></a>
+        <a href="mailto:<%= data.generic.settings.email %>" data-event="ga" data-ga-category="Contacts Page" data-ga-action="click" data-ga-label="direct email"><%= data.generic.settings.email %></a>
       </div>
     </aside>
     <div class="contant">
@@ -15,13 +15,14 @@
         <div class="envelope-box-form">
           <div class="envelope-box-form-inner">
             <h3>צור איתנו קשר</h3>
-            <form class="page-form" action="" method="">
+            <form class="page-form" action="ContactUsAction.aspx" method="post">
               <div class="form-group">
                 <input class="form-control" type="email" placeholder="דואר אלקטרוני שלך" required/>
               </div>
               <textarea rows="7" cols="50" class="form-control" placeholder="הודעה"></textarea>
               <div class="btn-block">
-                <input class="btn" type="submit" value="שלח עכשיו" />
+                <input class="btn" type="submit" value="שלח עכשיו" 
+                data-event="ga" data-ga-category="Contacts Page" data-ga-action="click" data-ga-label="form" />
               </div>
             </form>
           </div>
