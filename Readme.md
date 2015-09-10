@@ -14,3 +14,5 @@
 ## Production
 
 1. Run: `middleman build`
+2. Copy `source/images/fbimage.png` to `build/`
+3. Generate `sitemap.xml.gz` and copy to `build/`
