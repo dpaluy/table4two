@@ -1,0 +1,33 @@
+list:
+  - image: "ambassador_01.png"
+    name: נטלי בן דוד
+    link: "#"
+    title: מהנדס בדיקות מערכת וביצועים
+    message:
+      בעיניי להיות שגרירה זה קודם כל להוות דוגמא אישית ,להראות לאנשים שאפשר וצריך לתרום לאלו ששפר מזלם - במיוחד אם אלו ילדים.
+      התוכנית היא מעולה בגלל שקל להצטרף, לא צריך להתאמץ הרבה והתוצאה עצמה היא ענקית ומשנה חיים.
+      אני מקווה שאנשים ישכילו להבין את זה ויצטרפו בהמוניהם
+    company: חברת F5
+    company_logo: "ambassador_logo_01.png"
+    company_link: "https://www.linkedin.com/company/f5-networks"
+
+  - image: "ambassador_02.png"
+    name: יובל קשטכר
+    link: "#"
+    title: עובד של unilink
+    message:
+      נפלה בחלקי הזכות לקחת חלק בפרויקט המגניב הזה. קל מאוד להתלונן על כמה נורא המצב בארץ, יש להבין ששינוי החברתי מתחיל בנו, מלמטה.
+    company: חברת השמה להייטק
+    company_logo: "ambassador_logo_02.png"
+    company_link: "https://www.linkedin.com/pub/unilink-ltd/18/2b/77b"
+
+  - image: "ambassador_03.png"
+    name: ענבל גילאי
+    link: "#"
+    title: מפתחת תוכנה
+    message:
+      הצטרפתי לפרוייקט כי זו דרך קלה ונחמדה לעשות משהו טוב. אהבתי את הרעיון של ״בכל פעם שאתה אוכל, עזור למישהו לאכול איתך
+    company: חברת קלרנה
+    company_logo: "ambassador_logo_03.png"
+    company_link: "https://www.linkedin.com/company/748731"
+

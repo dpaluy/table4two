@@ -3,7 +3,7 @@
 ## Install
 
 1. Clone this repo
-1. Install (Ruby)[https://www.ruby-lang.org/en/documentation/installation/]
+1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 1. Run: `bundle install`
 
 ## Development
