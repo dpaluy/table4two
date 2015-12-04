@@ -27,14 +27,17 @@ title: "שולחן לשניים | השגרירים שלנו"
               </figure>
               <figcaption class="ambassador-info">
                 <h3><%= ambassador.name %></h3>
-                <h4>
-                  <%= ambassador.title %>, <%= ambassador.company %>
-                </h4>
-                <p>"<%= ambassador.message %>"</p>
+                <h4><%= ambassador.title %></h4>
+                <p>
+                  <% if ambassador.message %>
+                    "<%= ambassador.message %>"
+                  <% end %>
+                </p>
               </figcaption>
               <div class="amabassador-company row">
                 <div class="col-xs-3 col-sm-4">
-                <%= image_tag ambassador.company_logo %></div>
+                  <%= image_tag ambassador.company_logo if ambassador.company_logo %>
+                </div>
                 <div class="col text-right">
                   <a href="<%= ambassador.company_link %>" data-event="ga" data-ga-category="Ambassadors Page" data-ga-action="click" data-ga-label="ambassador1" target="_blank"><%= ambassador.company %></a>
                 </div>

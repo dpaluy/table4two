@@ -31,3 +31,61 @@ list:
     company_logo: "ambassador_logo_03.png"
     company_link: "https://www.linkedin.com/company/748731"
 
+  - image: "ambassador_04.png"
+    name: רועי פוברצ׳יק
+    link: "#"
+    title: בלוגר, איש שיווק
+    message:
+      אני מאמין שכחברה יש לנו את המחויבות המוסרית לסייע לאלו שפחות התמזל מזלם בחברה. שולחן לשניים מאפשר ליותר ויותר אנשים לתת חזרה לקהילה בקלות
+    company: roypovarchik.com
+    company_logo: null
+    company_link: "http://roypovarchik.com"
+
+  - image: "ambassador_05.png"
+    name: טליה וולף
+    link: "#"
+    title: מנהלת ובעלים של חברת Conversioner
+    message:
+      זה מרגש להיות חלק מיוזמה נפלאה שמאפשרת לכל הרבה אנשים לתרום לחברה. לתת לאחרים זו הרגשה נהדרת ומתגמלת מאוד
+    company: conversioner.com
+    company_logo: null
+    company_link: "https://www.conversioner.com/"
+
+  - image: "ambassador_06.png"
+    name: שהם אקהאוס
+    link: "#"
+    title: מנהלת ובעלים של חברת CLEAR PMM
+    message:
+      אני שמחה שיש לי אפשרות לסייע לילדים רעבים
+    company: clearpmm.com
+    company_logo: null
+    company_link: "http://www.clearpmm.com/"
+
+  - image: "ambassador_07.png"
+    name: קירה רדינסקי
+    link: "#"
+    title: CTO
+    message: null
+    company: SalesPredict
+    company_logo: null
+    company_link: "http://www.salespredict.com/"
+
+  - image: "ambassador_08.png"
+    name: אלון מסון
+    link: "#"
+    title: Co-Founder & CEO
+    message:
+      ישנו פתגם מהתלמוד האומר ״צדקה תציל ממוות״. לכולנו האפשרות והיכולת לשפר את חייהם, ואף להציל את חייהם, של אלו הזקוקים לעזרתינו. בואו נתגבש יחדיו תחת היוזמה המבורכת של Table For Two ונתרום למען האביון. זוהי מטרה נלעת ומיוחדת אשר לנו הכבוד להיות חלק ממנה!
+    company: XPlace Ltd
+    company_logo: null
+    company_link: "http://www.xplace.com/"
+
+  - image: "ambassador_09.png"
+    name: ליאור פרנקל
+    link: "#"
+    title: מנכ״ל ושותף ב- nuSchool
+    message:
+      כשאתה עובד בהייטק, שקל נראה לך מעט מאד כסף. כמה שקלים כאלו יכולים להצטבר לארוחה עבור מי שאין לו. זו הסיבה שאני כל כך מתלהב מהיוזמה הזו, ורוצה להפיץ אותה בכל הזדמנות
+    company: thefrenkel.com
+    company_logo: null
+    company_link: "http://www.thefrenkel.com/"
