@@ -65,7 +65,7 @@ list:
     name: קירה רדינסקי
     link: "#"
     title: CTO
-    message: null
+    message: בצעדים קטנים אנחנו יכולים להביא לשינויים גדולים עם משמעות אמיתית לאנשים בחברה שלנו
     company: SalesPredict
     company_logo: null
     company_link: "http://www.salespredict.com/"
@@ -75,7 +75,7 @@ list:
     link: "#"
     title: Co-Founder & CEO
     message:
-      ישנו פתגם מהתלמוד האומר ״צדקה תציל ממוות״. לכולנו האפשרות והיכולת לשפר את חייהם, ואף להציל את חייהם, של אלו הזקוקים לעזרתינו. בואו נתגבש יחדיו תחת היוזמה המבורכת של Table For Two ונתרום למען האביון. זוהי מטרה נלעת ומיוחדת אשר לנו הכבוד להיות חלק ממנה!
+      ישנו פתגם מהתלמוד האומר ״צדקה תציל ממוות״. לכולנו האפשרות והיכולת לשפר את חייהם, ואף להציל את חייהם, של אלו הזקוקים לעזרתינו. בואו נתגבש יחדיו תחת היוזמה המבורכת של שולחן לשניים ונתרום למען האביון. זוהי מטרה נעלת ומיוחדת אשר לנו הכבוד להיות חלק ממנה!
     company: XPlace Ltd
     company_logo: null
     company_link: "http://www.xplace.com/"
@@ -89,3 +89,33 @@ list:
     company: thefrenkel.com
     company_logo: null
     company_link: "http://www.thefrenkel.com/"
+
+  - image: "ambassador_10.png"
+    name: רועי טרטמן
+    link: "#"
+    title: הבעלים של RET2082, מייסד-שותף ומנהל המוצר ב
+    message:
+      בתור מישהו שבילה הרבה זמן בחברת משתמשי תן-ביס, אני יכול לומר בהחלט שזה מותרות נהדר לכל עובד. הדבר היפה במותרות הוא שאנחנו לא באמת צריכים אותם, ואם אנחנו כבר מקבלים אותם, למה לא ישר? מידית? במקום? להעביר את הלאה? שולחן לשניים עובד כי הוא פשוט עובד
+    company: Fitfully
+    company_logo: null
+    company_link: "http://www.fitfully.me/"
+
+  - image: "ambassador_11.png"
+    name: גדעון ברגר
+    link: "#"
+    title: Data operations Business Development
+    message: שולחן שניים היא אחת היוזמות המבורכות שראיתי בסצינת ההי טק הישראלית.
+      תוכנית שולחן לשניים מאפשר לאנשים שעסוקים בחיי היומיום וחיים בשיגרה עמוסה לתת ולתרום לנזקקים.
+      מעבר לתרומה היומיומית, המיזם מאפשר לחברים בתוכנית להתנדב ולקחת חלק בשלל פעילויות, מהרגע הראשון ששמעתי על שולחן ל2-התאהבתי ברעיון.
+    company: SimilarWeb.com
+    company_logo: null
+    company_link: "www.SimilarWeb.com"
+
+  - image: "ambassador_12.png"
+    name:  ענבר רז
+    link: "#"
+    title: סמנכ״ל מחקר
+    message: סטארטאפיסטים אוהבים לומר שהם רוצים לשנות את העולם. ״שולחן לשניים״ מאפשרת לשנות את ישראל כבר עכשיו.
+    company: פרימיטר-איקס
+    company_logo: null
+    company_link: "http://www.perimeterx.com/"
